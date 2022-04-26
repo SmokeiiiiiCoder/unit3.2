@@ -1,0 +1,33 @@
+Case Study Monalco Mining
+Context
+Since the whole world market prices of iron ore had ramped up significantly to $110 per ton, Monalco Mining, which is one of world’s largest iron ore mining companies, invested heavily in operating technologies such as ore-crushers and had poured money into maintenance to maximize its iron production. However, with rapidly overtaking demand, prices have now shifted downwards to averaging $55 per ton. Additionally, after increasing investment in equipment and maintenance, Monalco Mining’s operating breakeven hovering is around $50/ton. So they need a plan to exhibit spending discipline and reduce operating costs. After market booming, they changed their maintenance plan to annually, now they need to reduce the maintenance cost, especially ore crusher maintenance, by 20% annually to get a buffer to weather future downward shifts pricing. We also need to follow that OEM limits recommend one maintenance event at every 50000 tons of iron ore processed. 
+Criteria for success
+Success for this project = Reducing maintenance cost by 20% annually 
+Scope of solution space 
+Maintenance cost will be reduced to 36m this year
+Constraints within solution space
+With the work orders for 2018, we need to spend $45m on maintenance for 2019
+Our maintenance logs are indicating ‘excess wear’ is responsible for at least 80% of our work requests. 
+OEM limit of maintenance event is every 50000 tons of iron ore processed.
+Scope of solution space 
+Chanel Adams (Reliability Engineer)
+Jonas Richards (Asset Integrity Manager)
+Bruce Banner (Maintenance SME)
+Jane Steere (Principal Maintenance) 
+Fargo Williams (Change Manager)
+Tara Starr (Maintenance SME)
+
+Key data sources 
+Data Historian - This includes information on how many tonnes of Iron Ore we
+have processed with the ore crushers.
+Ellipse - This includes information on the old work orders that used to be raised
+for our equipment, before our upgrade to SAP.
+SAP - This is the most up-to-date information source on our equipment logs and
+work order requests that have been raised for maintenance work for our ore
+crushers and other pieces of equipment
+T3000 DCS – Sends raw streaming data on vibrations, temperature, and the
+humidity of the ore crushed to Data Historian
+Ore Crusher System - This includes a high-level process map outlining how the
+Ore Crusher System works for individual ore crusher models.
+
+
